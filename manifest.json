@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Nyan cat progress bar",
-  "version": 1.0,
+  "version": "1.0",
   "description": "Adds a Nyan cat progress bar for flavortown!",
   "icons": {
     "16": "images/nyan-16.png",
@@ -11,10 +11,12 @@
   },
   "content_scripts": [
     {
-      "js": ["scripts/content.js"],
+      "css": ["scripts/hide-progress.css"],
       "matches": [
-        "https://flavortown.hackclub.com/*"
-      ]
+        "https://flavortown.hackclub.com/kitchen",
+        "https://flavortown.hackclub.com/my/achievements"
+      ],
+      "run_at": "document_start"
     }
   ]
 }
