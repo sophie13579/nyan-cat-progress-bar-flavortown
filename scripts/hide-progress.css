@@ -1,0 +1,11 @@
+.tutorial-steps__progress-bar {
+    display: none !important;
+}
+
+.achievements__stats-bar {
+    display: none !important;
+}
+
+.achievements__progress .achievements__progress-bar {
+    display: none !important;
+}
