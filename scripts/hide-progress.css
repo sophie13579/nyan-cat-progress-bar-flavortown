@@ -2,28 +2,10 @@
     display: none !important;
 }
 
-.tutorial-steps__progress-bar {
-    flex: 1;
-    height: 12px;
-    background: var(--color-tan-300);
-    border: 3px solid var(--color-brown-400);
-    border-radius: 999px;
-    overflow: hidden
+.achievements__stats-bar {
+    display: none !important;
 }
 
-.shop-goals__progress-bar {
-    height: 8px;
-    background: #e5e7eb;
-    border-radius: 4px;
-    overflow: hidden
-}
-
-.project-card .project-card__stats {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 2.5em;
-    width: 100%;
-    padding: 0 var(--space-l);
-    margin-bottom: 1rem
+.achievements__progress .achievements__progress-bar {
+    display: none !important;
 }
