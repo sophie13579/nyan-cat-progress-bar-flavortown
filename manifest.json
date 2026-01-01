@@ -21,32 +21,30 @@
     }
   ],
   "web_accessible_resources": [
-  {
-    "resources": [
-      "images/nyan_cat/rainbow.png",
-      "images/nyan_cat/nyan_cat.gif"
-    ],
-    "matches": [
-      "https://flavortown.hackclub.com/*"
+    {
+      "resources": [
+        "images/nyan_cat/rainbow.png",
+        "images/nyan_cat/nyan_cat.gif"
+      ],
+      "matches": [
+        "https://flavortown.hackclub.com/*"
+      ]
+    }
+  ],
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "https://flavortown.hackclub.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "flavortown_header",
+        "enabled": true,
+        "path": "rules.json"
+      }
     ]
   }
-],
-  "permissions": [
-  "declarativeNetRequest",
-  "declarativeNetRequestWithHostAccess"
-],
-"host_permissions": [
-  "https://flavortown.hackclub.com/*"
-],
-  "declarative_net_request": {
-  "rule_resources": [
-    {
-      "id": "flavortown_header",
-      "enabled": true,
-      "path": "rules.json"
-    }
-  ]
-}
-
-
 }
