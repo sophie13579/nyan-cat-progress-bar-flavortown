@@ -5,7 +5,7 @@ A Chrome extension that replaces the Flavortown progress bars with animated Nyan
 
 How to install (for now as the extension is still not on the google extension store):
 1. Download the Nyan cat progress bar (flavortown).crx in Assets.
-2. Open the link chrome://extensions/.
+2. Open the link <a>chrome://extensions/</a>.
 3. Drag and drop the .crx extension file onto the extensions page (the .crx should be in your Downloads directory).
 4. Install
 
