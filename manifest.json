@@ -30,6 +30,23 @@
       "https://flavortown.hackclub.com/*"
     ]
   }
-]
+],
+  "permissions": [
+  "declarativeNetRequest",
+  "declarativeNetRequestWithHostAccess"
+],
+"host_permissions": [
+  "https://flavortown.hackclub.com/*"
+],
+  "declarative_net_request": {
+  "rule_resources": [
+    {
+      "id": "flavortown_header",
+      "enabled": true,
+      "path": "rules.json"
+    }
+  ]
+}
+
 
 }
