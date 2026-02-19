@@ -5,7 +5,12 @@ A Chrome extension that replaces the Flavortown progress bars with animated Nyan
 
 ## Installation
 
-### Install from Source
+### Install from Chrome Webstore
+1. Open the extension page in chrome webstore: https://chromewebstore.google.com/detail/nyan-cat-progress-bar/dbchpboknpdodpfgbfcdkeogfobpkfff
+2. Click the button Add to Chrome
+3. Your extension is now installed!
+
+### Install from .zip file
 1. Clone or download the repository (Code => Download Zip)
 2. Unzip the zipped file (the name should be `nyan-cat-progress-bar-flavortown-dev.zip`)
 2. Go to `chrome://extensions/`
